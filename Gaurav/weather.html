@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1><i class="fa-regular fa-cloud"></i>WeatherApp Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
+        </nav>
+        </header>
+        <hr>
+
+        <section>
+            <h2>Search Data</h2>
+            <form action="#">
+                <label for="city">Enter City Name:</label>
+                <input type="text" id="city" name="city" placeholder="City Name">
+
+                <br><br>
+
+                <label for="email">Enter Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+                <br><br>
+
+                <label for="category">Select Category:</label>
+                <select id="category" name="category">
+                    <option value="weather">Weather</option>
+                    <option value="traffic">Traffic</option>
+                    <option value="pollution">Pollution</option>
+                </select>
+
+                <br><br>
+                <button type="submit">Search</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Live Data Overview</h2>
+            <article>
+                <h3><i class="fa-solid fa-cloud-bolt"></i>Weather Status</h3>
+                <img src="weather-icon-ios-7-11530957417asfcg4ktnv.png" alt="Weather Icon">
+                <p>Temperature: 30°C | Condition: Sunny</p>
+            </article>
+            <article>
+                <h3><i class="fa-solid fa-traffic-light"></i>Traffic Update</h3>
+                <img src="images.jpg" alt="Traffic Icon">
+                <p>Moderate traffic in central areas.</p>
+            </article>
+            <article>
+                <h3><i class="fa-solid fa-smog"></i>Air Quality</h3>
+                <img src="air-quality-index-aqi-icon-white_116137-12900.avif" alt="Air Quality Icon">
+                <p>AQI Level: 120 (Moderate)</p>
+            </article>
+
+
+        </section>
+        <hr>
+
+        <section>
+        
+
+        <table border="1">
+            <caption><b>Weekly Summary</b></caption>
+            
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Temperature</th>
+                    <th>Condition</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>30°C</td>
+                    <td>Sunny</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>28°C</td>
+                    <td>Cloudy</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>26°C</td>
+                    <td>Rainy</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+     <footer>
+        <p>&copy; 2026 SmartApp. All Rights Reserved.</p>
+
+        <p>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a>
+        </p>
+    </footer>
+
+
+
+    
+    
+</body>
+</html>
